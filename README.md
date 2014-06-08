@@ -1,14 +1,20 @@
-ps4tools
+slb2unpack
 ========
 
-My collection of tools for PS4 file handling.
+Unpacks a SLB2 container file
 
 Credits
 -------
+Hykem (forked from ps4tools)
 flat_z (original Python scripts for PUP and PKG unpacking)
 
 CHANGELOG
 --------
+
+* slb2unpack tool
+
+    - pupunpack: renamed to slb2unpack and removed references to PUP.
+    - slb2unpack: more error checks. Fixed potential read bug since fread return not checked.
 	
 * First Release
 

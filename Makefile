@@ -1,9 +1,9 @@
 CC	=  gcc
 CFLAGS	=  -g -O2 -Wall -W
 LDLIBS  = 
-FILES	=	pupunpack unpkg
-COMMON	=	sha2.o
-DEPS	=	Makefile sha2.h
+FILES	=	slb2unpack
+COMMON	=	
+DEPS	=	Makefile
 
 OBJS	= $(COMMON) $(addsuffix .o, $(FILES))
 
