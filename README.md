@@ -6,6 +6,7 @@ Unpacks a SLB2 container file
 Credits
 -------
 Hykem (forked from ps4tools)
+
 flat_z (original Python scripts for PUP and PKG unpacking)
 
 CHANGELOG
